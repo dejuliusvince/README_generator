@@ -51,7 +51,7 @@ function renderLicenseSection(license) {
 //function to render the Questions section with email and github info
 function renderQuestionsSection(data) {
   return `## Questions
-  Email address: ${data.Email}
+  Email address: ${data.Email} <br />
   GitHub: ${data.GitHub}`
 }
 
@@ -71,20 +71,19 @@ function generateMarkdown(data) {
 ## Installation 
   ${data.Installation}
 
-  ## Usage
+## Usage
   ${data.Usage}
 
-  ## Contributing
+## Contributing
   ${data.Contributing}
 
-  ## Tests
+## Tests
   ${data.Test}
 
   ${renderLicenseSection(data.License)}
 
   ${renderQuestionsSection(data)}
-  
-  
+
   `;
 
 }
