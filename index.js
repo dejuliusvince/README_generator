@@ -32,7 +32,7 @@ const questions = [
     {
         name: "Usage",
         type: "editor",
-        message: "What guidelines shoudl the user follow when using your application?",
+        message: "What guidelines should the user follow when using your application?",
     },
     {
         name: "License",

@@ -48,11 +48,45 @@ function renderLicenseSection(license) {
 
 }
 
+//function to render the Questions section with email and github info
+function renderQuestionsSection(data) {
+  return `## Questions
+  Email address: ${data.Email}
+  GitHub: ${data.GitHub}`
+}
+
+
+
+
+
+
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.Title} ${renderLicenseBadge(data.License)} 
 
-  ${renderLicenseSection(data.License)}`;
+## Description
+  ${data.Description}
+
+## Installation 
+  ${data.Installation}
+
+  ## Usage
+  ${data.Usage}
+
+  ## Contributing
+  ${data.Contributing}
+
+  ## Tests
+  ${data.Test}
+
+  ${renderLicenseSection(data.License)}
+
+  ${renderQuestionsSection(data)}
+  
+  
+  `;
+
 }
 
 module.exports = {generateMarkdown, licensesAndBadges};
