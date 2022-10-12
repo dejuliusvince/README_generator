@@ -1,30 +1,32 @@
-# The Great Big Wonderful App [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+# Sample READme generator [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
 
 ## Description
-  This app really is quite big and wonderful
+  This is the sample READme file for my assignment.
+
 
 
 ## Installation 
-  
-
-  ## Usage
-  The user guidelines for the application will go here
+  The user can install my project directly from github.
 
 
-  ## Contributing
-  All guidelines for use and distribution of the application will go here
+## Usage
+  Someone can use this project to generate professional READme.md files for their own github projects.
 
 
-  ## Tests
-  The procedure will go here
+
+## Contributing
+  There are no specific guidelines for use, other than to be kind to yourself and others!
+
+
+## Tests
+  This application can be tested by opening the terminal and entering the command node index.js and following the prompts
 
 
   ## License
   This repo is licensed under [Apache License 2.0](https://opensource.org/licenses/Apache-2.0).
 
   ## Questions
-  Email address: vince@email.com
-  GitHub: Vince
-  
-  
+  Email address: dejuliusvince@gmail.com <br />
+  GitHub: dejuliusvince
+
   
